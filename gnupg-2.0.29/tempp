@@ -1,0 +1,398 @@
+configure: loading site script /usr/share/site/x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+configure: autobuild project... gnupg
+configure: autobuild revision... 2.0.29
+configure: autobuild hostname... FROST
+configure: autobuild timestamp... 20160121-211305
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether SELinux support is requested... no
+checking whether to allocate extra secure memory... no
+checking whether to enable the BZIP2 compression algorithm... yes
+checking whether to enable external program execution... yes
+checking whether to enable photo ID viewing... yes
+checking whether to use a fixed photo ID viewer... no
+checking whether to enable external keyserver helpers... yes
+checking whether LDAP keyserver support is requested... yes
+checking whether HKP keyserver support is requested... yes
+checking whether finger key fetching support is requested... yes
+checking whether generic object key fetching support is requested... yes
+checking whether email keyserver support is requested... no
+checking whether keyserver exec-path is enabled... yes
+checking for the size of the key and uid cache... 4096
+checking whether use of capabilities is requested... no
+checking whether to enable the internal CCID driver... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+configure: checking for programs
+checking whether make sets $(MAKE)... (cached) yes
+checking whether build environment is sane... yes
+checking for gawk... (cached) gawk
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether ln -s works... yes
+checking for ranlib... ranlib
+checking for ar... ar
+checking for perl... /usr/bin/perl
+checking for windres... no
+checking for strerror in -lcposix... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for faqprog.pl... no
+checking for tar... /bin/tar
+checking whether /bin/tar speaks USTAR... yes
+checking for cc for build... gcc
+checking whether to use a standard socket by default... no
+configure: checking for libraries
+checking for gpg-error-config... /usr/bin/gpg-error-config
+checking for GPG Error - version >= 1.11... yes (1.13)
+configure: WARNING:
+***
+*** The config script /usr/bin/gpg-error-config was
+*** built for x86_64-suse-linux-gnu and thus may not match the
+*** used host x86_64-unknown-linux-gnu.
+*** You may want to use the configure option --with-gpg-error-prefix
+*** to specify a matching config script or use $SYSROOT.
+***
+checking for libgcrypt-config... /usr/bin/libgcrypt-config
+checking for LIBGCRYPT - version >= 1.5.0... yes (1.6.1)
+checking LIBGCRYPT API version... okay
+configure: WARNING:
+***
+*** The config script /usr/bin/libgcrypt-config was
+*** built for x86_64-suse-linux-gnu and thus may not match the
+*** used host x86_64-unknown-linux-gnu.
+*** You may want to use the configure option --with-libgcrypt-prefix
+*** to specify a matching config script or use $SYSROOT.
+***
+checking for libassuan-config... /usr/bin/libassuan-config
+checking for LIBASSUAN - version >= 2.0.0... yes (2.1.1)
+checking LIBASSUAN API version... okay
+checking for ksba-config... /usr/bin/ksba-config
+checking for KSBA - version >= 1.0.7... yes (1.3.0)
+checking KSBA API version... okay
+checking for usb_bulk_write in -lusb... no
+checking for usb_create_match... no
+checking for library containing dlopen... -ldl
+checking for openpty in -lutil... yes
+checking for shred... /usr/bin/shred
+checking for pth-config... /usr/bin/pth-config
+checking for PTH - version >= 1.3.7... yes
+checking whether PTH installation is sane... yes
+configure: checking for networking options
+checking for gethostbyname... yes
+checking for setsockopt... yes
+checking adns.h usability... no
+checking adns.h presence... no
+checking for adns.h... no
+checking for adns_free... no
+checking for library containing res_query... no
+checking for library containing __res_query... -lresolv
+checking for library containing dn_expand... no
+checking for library containing __dn_expand... none required
+checking for library containing dn_skipname... no
+checking for library containing __dn_skipname... none required
+checking whether the resolver is usable... yes
+checking whether LDAP via "-lldap" is present and sane... no
+checking whether I can make LDAP be sane with lber.h... no
+checking whether LDAP via "-lldap -llber" is present and sane... no
+checking whether I can make LDAP be sane with lber.h... no
+checking whether LDAP via "-lldap -llber -lresolv" is present and sane... no
+checking whether I can make LDAP be sane with lber.h... no
+checking whether LDAP via "-lwldap32" is present and sane... no
+checking whether I can make LDAP be sane with lber.h... no
+checking for gawk... (cached) gawk
+checking for curl-config... no
+checking whether libcurl is usable... no
+checking for ld used by gcc... /usr/x86_64-suse-linux/bin/ld
+checking if the linker (/usr/x86_64-suse-linux/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+configure: checking for gettext
+checking for a sed that does not truncate output... /usr/bin/sed
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... no
+checking for msgmerge... no
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for strchr... yes
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+configure: checking for header files
+checking for ANSI C header files... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking pty.h usability... yes
+checking pty.h presence... yes
+checking for pty.h... yes
+checking utmp.h usability... yes
+checking utmp.h presence... yes
+checking for utmp.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking for inttypes.h... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+configure: checking for system characteristics
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for working volatile... yes
+checking for size_t... yes
+checking for mode_t... yes
+checking return type of signal handlers... void
+checking whether sys_siglist is declared... yes
+checking for sys/socket.h... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking for socklen_t... yes
+checking endianess... little
+checking for byte typedef... no
+checking for ushort typedef... yes
+checking for ulong typedef... yes
+checking for u16 typedef... no
+checking for u32 typedef... no
+checking size of unsigned short... 2
+checking size of unsigned int... 4
+checking size of unsigned long... 8
+checking size of unsigned long long... 8
+checking size of time_t... 8
+checking for UINT64_C... yes
+checking size of uint64_t... 8
+configure: checking for library functions
+checking whether getpagesize is declared... yes
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for vprintf... yes
+checking for _doprnt... no
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for strerror... yes
+checking for strlwr... no
+checking for tcgetattr... yes
+checking for mmap... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for ctermid... yes
+checking for times... yes
+checking for gmtime_r... yes
+checking for unsetenv... yes
+checking for fcntl... yes
+checking for ftruncate... yes
+checking for inet_ntop... yes
+checking for gettimeofday... yes
+checking for getrusage... yes
+checking for getrlimit... yes
+checking for setrlimit... yes
+checking for clock_gettime... yes
+checking for atexit... yes
+checking for raise... yes
+checking for getpagesize... yes
+checking for strftime... yes
+checking for nl_langinfo... yes
+checking for setlocale... yes
+checking for waitpid... yes
+checking for wait4... yes
+checking for sigaction... yes
+checking for sigprocmask... yes
+checking for pipe... yes
+checking for stat... yes
+checking for getaddrinfo... yes
+checking for ttyname... yes
+checking for rand... yes
+checking for ftello... yes
+checking for fsync... yes
+checking for stat... (cached) yes
+checking for struct sigaction... yes
+checking for sigset_t... yes
+checking for memicmp... no
+checking for stpcpy... yes
+checking for strsep... yes
+checking for strlwr... (cached) no
+checking for strtoul... yes
+checking for memmove... yes
+checking for stricmp... no
+checking for strtol... yes
+checking for memrchr... yes
+checking for isascii... yes
+checking for timegm... yes
+checking for getrusage... (cached) yes
+checking for setrlimit... (cached) yes
+checking for stat... (cached) yes
+checking for setlocale... (cached) yes
+checking for flockfile... yes
+checking for funlockfile... yes
+checking for fopencookie... yes
+checking for funopen... no
+checking for getpwnam... yes
+checking for getpwuid... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for unsigned long long int... yes
+checking for long long int... yes
+checking for long double... yes
+checking whether stat file-mode macros are broken... no
+checking for mkdtemp... yes
+checking for setenv... yes
+checking for unsetenv... (cached) yes
+checking for unsetenv() return type... int
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking absolute name of <stdint.h>... ///usr/lib64/gcc/x86_64-suse-linux/4.8/include/stdint.h
+checking whether stdint.h conforms to C99... yes
+checking for strpbrk... yes
+checking for unistd.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking direct.h usability... no
+checking direct.h presence... no
+checking for direct.h... no
+checking if mkdir takes one argument... no
+checking whether regular expression support is requested... yes
+checking for library containing regcomp... none required
+checking for regcomp... yes
+checking whether your system's regexp library is broken... no
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for deflateInit2_ in -lz... yes
+checking for bzlib.h... no
+checking whether readline via "-lreadline" is present and sane... no
+checking whether readline via "-lreadline -ltermcap" is present and sane... no
+checking whether readline via "-lreadline -lcurses" is present and sane... no
+checking whether readline via "-lreadline -lncurses" is present and sane... no
+configure: checking for cc features
+checking if gcc ignores unknown -Wno-* options... yes
+checking if gcc supports -Wpointer-arith... yes
+configure: checking system features for estream-printf
+checking for stdint.h... (cached) yes
+checking for long long int... (cached) yes
+checking for long double... yes
+checking for intmax_t... yes
+checking for uintmax_t... yes
+checking for ptrdiff_t... yes
+checking size of unsigned long... (cached) 8
+checking size of void *... 8
+checking for nl_langinfo and THOUSANDS_SEP... yes
+configure: checking system features for estream
+checking that generated files are newer than configure... done
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating m4/Makefile
+config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating gl/Makefile
+config.status: creating include/Makefile
+config.status: creating jnlib/Makefile
+config.status: creating common/Makefile
+config.status: creating common/w32info-rc.h
+config.status: creating kbx/Makefile
+config.status: creating g10/Makefile
+config.status: creating sm/Makefile
+config.status: creating agent/Makefile
+config.status: creating scd/Makefile
+config.status: creating keyserver/Makefile
+config.status: creating keyserver/gpg2keys_mailto
+config.status: creating keyserver/gpg2keys_test
+config.status: creating tools/gpg-zip
+config.status: creating tools/Makefile
+config.status: creating doc/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/openpgp/Makefile
+config.status: creating tests/pkits/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+
+        GnuPG v2.0.29 has been configured as follows:
+
+        Revision:  120fc69  (4623)
+        Platform:  GNU/Linux (x86_64-unknown-linux-gnu)
+
+        OpenPGP:   yes
+        S/MIME:    yes
+        Agent:     yes 
+        Smartcard: yes (without internal CCID driver)
+        Gpgtar:    no
+
+        Protect tool:      (default)
+        Default agent:     (default)
+        Default pinentry:  (default)
+        Default scdaemon:  (default)
+        Default dirmngr:   (default)
+
+        Warning: Mismatches between the target platform and the
+                 to be used libraries have been detected for:
+                   libgpg-error libgcrypt
+                 Please check above for more warning messages.
+
+
